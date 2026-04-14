@@ -1,8 +1,7 @@
 ---
 description: "Generate a comprehensive onboarding guide for new team members joining this project"
 argument-hint: "[--role frontend|backend|fullstack|pm] [--lang ko]"
-allowed-tools: ["Bash", "Read", "Glob", "Grep"]
-disable-model-invocation: true
+allowed-tools: ["Bash", "Read", "Glob", "Grep", "Agent"]
 ---
 
 # Onboarding Guide Generator

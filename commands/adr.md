@@ -1,8 +1,7 @@
 ---
 description: "Generate an Architecture Decision Record from recent code changes or a specified topic"
 argument-hint: "<topic-or-auto> [--since 7d|30d|commit-ref] [--lang ko]"
-allowed-tools: ["Bash", "Read", "Glob", "Grep"]
-disable-model-invocation: true
+allowed-tools: ["Bash", "Read", "Glob", "Grep", "Agent"]
 ---
 
 # ADR (Architecture Decision Record) Generator
