@@ -1,0 +1,9 @@
+{
+  "name": "project-pilot",
+  "description": "Comprehensive project management and codebase intelligence plugin for PMs and developers. Provides project analysis, git history explanation, technical debt reports, release notes generation, ADR creation, sprint health monitoring, impact analysis, dependency mapping, breaking change detection, bus factor analysis, onboarding guides, and PM dashboards.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Project Pilot",
+    "email": "project-pilot@plugin.dev"
+  }
+}

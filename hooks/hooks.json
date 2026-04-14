@@ -1,0 +1,16 @@
+{
+  "description": "Project Pilot - Ambient project awareness on session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/detect-package-manager.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
