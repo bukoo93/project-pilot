@@ -296,7 +296,7 @@ Each feature has a skill with a rich `description` field containing Korean and E
 All risk assessments use a unified formula:
 
 ```
-Risk Score = Severity(1-4) × Likelihood(1-4) × Age(1.0-2.0) × Centrality(1.0-2.0)
+Risk Score = Severity(1-4) x Likelihood(1-4) x Age(1.0-2.0) x Centrality(1.0-2.0)
 Normalized to 1-10 scale
 ```
 
@@ -333,28 +333,10 @@ project-pilot/
 │       └── references/
 │           ├── risk-scoring.md
 │           └── output-formats.md
-├── commands/                            # 12 slash commands (legacy format, kept for compatibility)
-│   ├── analyze.md
-│   ├── history.md
-│   ├── debt.md
-│   ├── release-notes.md
-│   ├── adr.md
-│   ├── sprint-health.md
-│   ├── impact.md
-│   ├── onboard.md
-│   ├── deps.md
-│   ├── breaking-changes.md
-│   ├── bus-factor.md
-│   └── dashboard.md
+├── commands/                            # 12 slash commands
+│   └── [analyze|history|debt|release-notes|adr|sprint-health|impact|onboard|deps|breaking-changes|bus-factor|dashboard].md
 ├── agents/                              # 8 specialized sub-agents
-│   ├── stack-detector.md
-│   ├── structure-analyzer.md
-│   ├── business-logic-tracer.md
-│   ├── git-archaeologist.md
-│   ├── debt-scanner.md
-│   ├── contributor-analyzer.md
-│   ├── dependency-mapper.md
-│   └── change-impact-analyzer.md
+│   └── [stack-detector|structure-analyzer|business-logic-tracer|git-archaeologist|debt-scanner|contributor-analyzer|dependency-mapper|change-impact-analyzer].md
 ├── hooks/
 │   └── hooks.json                       # SessionStart hook
 ├── scripts/
@@ -392,7 +374,7 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ## Contributing
 
-Issues and pull requests welcome at the [GitHub repository](https://github.com).
+Issues and pull requests welcome at [bukoo93/project-pilot](https://github.com/bukoo93/project-pilot).
 
 ## Author
 
